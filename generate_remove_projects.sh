@@ -9,21 +9,6 @@ fi
 MANIFEST_FILE=$1
 LOCAL_MANIFEST_FILE=$2
 NAME_CONTAINS=(
-"device/amlogic" 
-"device/common" 
-"device/generic"  
-"device/google" 
-"device/linaro" 
-"device/sample" 
-"device/ti" 
-"/darwin" 
-"apps/Car/" 
-"services/Car" 
-"/hardware/qcom/" 
-"/hardware/samsung" 
-"/hardware/ti" 
-"/hardware/google"
-"platform/cts"
 )
 
 # 创建或清空local manifest文件
